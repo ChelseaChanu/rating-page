@@ -137,4 +137,17 @@ p, .rating button{
     .container{
         width: 20rem;
     }
+
+    .thank-you-content{
+        width: 17.5rem;
+    }
+
+    .img, .rate{
+        height: 40px;
+        width: 40px;
+    }
+
+    .rating{
+        margin-bottom: 1.5rem;
+    }
 }
