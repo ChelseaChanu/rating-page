@@ -20,7 +20,7 @@ h1{
     color: var(--White);
 }
 
-p, .rating div{
+p, .rating button{
     color: var(--Light-Grey);
     font-size: 15px;
     font-weight: var(--fw-h);
