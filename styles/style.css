@@ -96,7 +96,7 @@ p, .rating button{
 
 .thank-you-content{
     align-items: center;
-    padding: 2rem 2rem;
+    padding: 2rem;
     gap: 0;
     text-align: center;
     width: 21.5rem;
@@ -135,16 +135,22 @@ p, .rating button{
 
 @media (max-width:400px) {
     .container{
+        padding: 1.5rem;
         width: 20rem;
     }
 
     .thank-you-content{
+        padding: 1.5rem;
         width: 17.5rem;
     }
 
     .img, .rate{
         height: 40px;
         width: 40px;
+    }
+
+    .img, .thanks-image{
+        margin: 1.5rem 0;
     }
 
     .rating{
