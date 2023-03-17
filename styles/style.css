@@ -135,13 +135,15 @@ p, .rating button{
 
 @media (max-width:400px) {
     .container{
-        padding: 1.5rem;
-        width: 20rem;
+        width: 18rem;
+    }
+
+    .main-content{
+        gap:1rem;
     }
 
     .thank-you-content{
-        padding: 1.5rem;
-        width: 17.5rem;
+        width: 14.5rem;
     }
 
     .img, .rate{
@@ -149,8 +151,8 @@ p, .rating button{
         width: 40px;
     }
 
-    .img, .thanks-image{
-        margin: 1.5rem 0;
+    .thanks-image{
+        margin: 1.5rem 0 3rem;
     }
 
     .rating{
