@@ -93,6 +93,9 @@ p, .rating button{
 }
 
 /* thank-you style */
+.thank-you-container{
+    display: none;
+}
 
 .thank-you-content{
     align-items: center;
@@ -115,14 +118,10 @@ p, .rating button{
 }
 
 .score-para{
+    align-items: center;
     color: hsl(25, 97%, 70%);
-    margin: 0;
+    margin: 0 auto;
     padding: 10px;
-}
-
-.thank-msg-p{
-    font-weight: var(--fw-p);
-    padding: 2px;
 }
 
 .attribution { 
